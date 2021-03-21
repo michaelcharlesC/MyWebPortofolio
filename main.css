@@ -1,0 +1,247 @@
+/*Header*/
+body {
+    font-size: 150.5%;
+    font-family: DejaVu Sans Mono, monospace;
+    background: hsl(240, 100%, 2%) url(/assets/vectorWall.jpg) ;
+    padding: 0 ;
+    margin: 0 ;
+}
+
+h1 {
+    color:aliceblue;
+    font-family: 2.0em;
+    padding: 0px;
+    margin: 0.5em 0 0.32em 0;
+}
+
+h2 {
+    color:aliceblue;
+    font-family: 2.0em;
+    padding: 0px;
+    margin: 0.5em 0 0.32em 0;
+}
+
+p {
+    font-size: 0.7em;
+    line-height: 1.4em;
+    color:rgb(124, 121, 121);
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0.8em 1em 0.5em 1em;
+
+}
+.aboutTitle h1{
+    color: black;
+}
+.highlightText {
+    color:#ffd000;
+    
+}
+
+a,a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+/*to review later*/
+.left{
+    float:left;
+}
+
+.right{
+    float: right;
+}
+/*til here*/
+
+header {
+    padding: 20.5em 9.5em 10.0em 0.0em;
+    margin: 0 0 0;
+    background: rgb(230, 176, 176) url(../MCPortofolio/assets/FirstBackgroundTest.jpg);
+    
+}
+header h1{
+    
+    font-size: 3.8em;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+/* credit for this animation to https://freefrontend.com/css-text-animations/ */
+@-webkit-keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #ffd000, 0 0 20px #ffd000, 0 0 30px #ffd000, 0 0 40px #ffd000, 0 0 50px #ffd000, 0 0 60px #ffd000, 0 0 70px #ffd000, 0 0 90px #ffd000;
+ }
+ 
+ to {
+    color: gray;
+   text-shadow: 0 0 20px #ffd000, 0 0 30px #ffd000, 0 0 40px #ffd000, 0 0 50px #ffd000, 0 0 60px #ffd000, 0 0 70px #ffd000, 0 0 80px #ffd000, 0 1 90px #ffd000;
+ }
+}
+
+
+nav {
+    color :coral;
+    font-size: 1.7em;
+    background: #000000;
+
+    
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0 ;
+    
+    
+}
+
+nav li a,nav li a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover{
+    color: #ff9900;
+    background-color:rgb(0, 0, 0);
+    box-shadow: -3px 10px 10px #ff9900;
+}
+
+.aboutMeWrapper {
+    /*margin: -2em 10em 10em;*/
+    text-align:left;
+    
+    
+    
+}
+
+.profilePic{
+    float:right;
+    margin:0em 1em 5em 10em
+}
+ 
+
+.aboutTitle, .contactTitle  {
+    background: #ff9900;
+    padding: 1em 1em 1em 5em ;
+    margin: 0 0 0 0 ;
+    box-shadow: 0px 0px 5px 0px #ff9900;
+    border-style: solid;
+}
+
+.aboutMeWrapper h3{
+    margin: 0.8em 1em 0.5em 1em;
+    color: rgb(124, 121, 121);
+}
+
+.aboutText{
+    margin: 5em 5em 5em 5em ;
+    padding-right: 0em;
+    
+    
+    
+}
+
+#profilePicId{
+    float:right;
+    margin: 3em;
+}
+
+.skillsWrap{
+    display:flex;
+    margin-right: 5em;
+    margin-left: 5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    flex-wrap: wrap;
+    border-right:solid #ff9900;
+    border-left:solid #ff9900;
+    background-color: hsl(240, 100%, 2%);
+    align-items: center;
+    
+    
+
+}
+.skillsWrap ul{
+    color: #ff9900;
+}
+.skillsWrap li{
+    padding-bottom: 30px;
+}
+
+.technicalSkills{
+    float:right;
+}
+
+.row{
+    display: flex;
+}
+
+.values{
+    margin: 2em;
+    padding:2em 2em 2em 2em;
+    border-style: dashed;
+    border-color: #ff9900;
+    border-radius: 1em;
+    box-shadow:5PX #ff9900 
+    
+}
+.ValuesWrap {
+margin:auto;
+}
+
+.techSkWrap{
+margin:auto;
+}
+.technicalSkills{
+    margin: 2em;
+    
+    padding:2em 4em 2em 2em;
+    border-style: dashed;
+    border-color: #ff9900;
+    border-radius: 1em;
+    box-shadow:#ff9900 ;
+}
+
+#skillsAndValues{
+    background-color: black;
+    align-items: center;
+    
+}
+
+.portofolioPanel{
+    margin-right: 4em;
+    margin-left: 4em;
+}
+
+.cssCharacter {
+   margin:2em;
+   padding:2em;
+   
+
+}
+.project-Title{
+    margin: 0em -10em 0em 0em;
+    padding: 0em 0em 0em 0em;
+}
+.aboutTitle h1{
+    font-size: 2em;
+}
+.contactTitle h1{
+    color: black;
+}
+
+
+
