@@ -65,7 +65,7 @@ a:hover {
 header {
     padding: 20.5em 9.5em 10.0em 0.0em;
     margin: 0 0 0;
-    background: rgb(230, 176, 176) url(../MCPortofolio/assets/FirstBackgroundTest.jpg);
+    background: rgb(230, 176, 176) url(./assets/FirstBackgroundTest.jpg);
     background-repeat:no-repeat;
     
 }
