@@ -33,7 +33,7 @@ p {
 .aboutTitle h1{
     color: black;
 }
-.highlightText {
+.highlightTextX {
     color:#ffd000;
     
 }
@@ -196,7 +196,7 @@ button{
     float:right;
 }
 
-.row{
+.rowX{
     display: flex;
     max-width: 1500px;
     margin-right: 3%;
