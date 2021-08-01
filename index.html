@@ -6,7 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Cotofan</title>
+    <style type="text/css">
+        body {
+            background: hsl(240, 100%, 2%) !important;
+        }
+
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
+    
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,9 +28,9 @@
             <nav id=mainNav>
                 <ul>
                     <li><a href="#">{HOME}</a></li>
-                    <li><a href="#">{ABOUT ME}</a></li>
-                    <li><a href="#">{PORTOFOLIO}</a></li>
-                    <li><a href="#">{CONTACT}</a></li>
+                    <li><a href="#aboutSection">{ABOUT ME}</a></li>
+                    <li><a href="#portofolio">{PORTOFOLIO}</a></li>
+                    <li><a href="#contactScroll">{CONTACT}</a></li>
                 </ul>
             </nav>
         </section>
@@ -34,25 +44,25 @@
                 </h1>
 
             </div>
-            <div class="row">
-                <div class="aboutText">
-                    <h3><b class="highlightText"> Hello,</b> my name is <b class="highlightText">Michael Charles
-                            Cotofan</b> and I am a <b class="highlightText">Software Developer.</b></h3>
+            <div class="rowX">
+                <div class="aboutText" id ="aboutSection">
+                    <h3><b class="highlightTextX"> Hello,</b> my name is <b class="highlightTextX">Michael Charles
+                            Cotofan</b> and I am a <b class="highlightTextX">Software Developer.</b></h3>
                     <p>Ever Since I was little, I've been pasionate about technology.
                         For me, the most attractive aspect of technology is problem solving.
                         Problem solving is a challenge
                         I have always loved <br />
                         – from completing puzzles at home to learning programming at
-                        <b class="highlightText">Eleven Fifty Academy</b> in
+                        <b class="highlightTextX">Eleven Fifty Academy</b> in
                         Indianapolis, Indiana. <br />
                         <br />
                         The potential of where we could be in terms of technology in 50 years’
                         time fascinates me, <br />
                         and it’s exciting to know that being involved in technology allows me to take my career in any
                         direction.<br />
-                        Eleven Fifty taught me to grasp the Fundamentals of <b class="highlightText">C#.NET</b> ,
-                        <b class="highlightText">HTML</b> , <b class="highlightText">CSS</b> and
-                        <b class="highlightText">JavaScript</b>
+                        Eleven Fifty taught me to grasp the Fundamentals of <b class="highlightTextX">C#.NET</b> ,
+                        <b class="highlightTextX">HTML</b> , <b class="highlightTextX">CSS</b> and
+                        <b class="highlightTextX">JavaScript</b>
                         My need to create, coupled with my love of technology, led me to become a developer. For me,
                         it's
                         the perfect combination of creativity,
@@ -60,7 +70,9 @@
                         <br />
                         You can find my code on <a href="https://github.com/michaelcharlesC">GitHub</a> and learn more
                         about
-                        my experience on <a href="https://www.linkedin.com/in/michael-charles-cotofan-a44153165/">Linkedin</a> I look forward to lending my passion of creating to
+                        my experience on <a
+                            href="https://www.linkedin.com/in/michael-charles-cotofan-a44153165/">Linkedin</a> I look
+                        forward to lending my passion of creating to
                         further the needs of your organization.
 
                     </p>
@@ -106,6 +118,8 @@
                                 <li>Creativity</li>
                                 <li>Service Excellence</li>
                                 <li>Teamwork</li>
+                                <li>Growth</li>
+
                             </ul>
                         </div>
                     </div>
@@ -129,7 +143,8 @@
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>.NET Framework</li>
+                            <li>Bootstrap</li>
+                            <li>C# .NET Framework</li>
                             <li>git / GitHub</li>
                         </ul>
                     </div>
@@ -137,7 +152,7 @@
         </div>
     </section>
     <div class="aboutTitle">
-        <h1><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172"
+        <h1 id="portofolio"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172"
                 style=" fill:#000000;">
                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                     stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -153,49 +168,97 @@
             </svg>Some Of My Work ↓</h1>
 
     </div>
-    <div class="projectsWrap">
-        <!--My projects-->
-        <div class="portofolioPanel">
-            <div class="gitHubProjects">
-                <p class="project-title">CSS/HTML Static Store</p>
-                <a class="project-cover" href="https://github.com/michaelcharlesC/StaticStoreFrontProject" target="_blank">
-                    <img id="gitHub" src="./assets/Capture.PNG"
-                        alt="Cover Img CssChar" width="250" height="250">
-                </a>
-            </div>
-        </div>
-        <div class="portofolioPanel">
-            <div class="gitHubProjects">
-                <p class="project-title">My Github</p>
-                <a class="project-cover" href="https://github.com/michaelcharlesC" target="_blank">
-                    <img id="gitHub" src="./assets/gitHubjpg.jpg"
-                        alt="Cover Img CssChar" width="250" height="250">
-                </a>
-            </div>
-        </div>
-        <div class="portofolioPanel">
-            <div class="gitHubProjects">
-                <p class="project-title">CSS Character</p>
-                <a class="project-cover" href="https://codepen.io/michaelcharles8/pen/VwmmwRX" target="_blank">
-                    <img id="CssCharImg" src="./assets/potatoHead.jpg"
-                        alt="Cover Img CssChar" width="250" height="250">
+    <div class="d-inline-flex p-5">
 
-                </a>
+
+        <!-- First column -->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/Capture.PNG" class="img-responsive" alt="Sample image" width="400" height="400">
+                <div class="mask flex-center blue-gradient-rgba">
+                    <a class="btn btn-outline-white btn-rounded" href="https://github.com/michaelcharlesC/StaticStoreFrontProject">See More</a>
+                </div>
             </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0" style="color:#ff9900">This was my first attempt of creating a static
+                store using only CSS and HTML. Project for Eleven Fifty "GOLD BADGE" class.</p>
 
         </div>
-        <div class="portofolioPanel">
-            <div class="gitHubProjects">
-                <p class="project-title">ASP.NET MVC -> Safe Fodds app</p>
-                <a class="project-cover" href="https://github.com/michaelcharlesC/SafeFoods" target="_blank">
-                    <img id="CssCharImg" src="./assets/IconSafeFood.jpg"
-                        alt="Cover Img CssChar" width="250" height="250">
+        
+        <!-- First column -->
 
-                </a>
+        <!-- Second column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/gitHubjpg.jpg" class="img-responsive" alt="Sample image" width="400" height="400">
+                <div class=" mask flex-center blue-gradient-rgba">
+                    <a class="btn btn-outline-white btn-rounded" href="https://github.com/michaelcharlesC/">See More</a>
+                </div>
             </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0">Direct link to my GitHub. Here you can find most of the projects I've worked in Eleven Fifty Academy.</p>
 
         </div>
+        <!-- Second column -->
 
+        <!-- Third column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/potatoHead.jpg" class="img-responsive" alt="Sample image" width="400" height="400"> 
+                <div class="mask flex-center blue-gradient-rgba">
+                    <a class="btn  btn-outline-white btn-rounded" href="https://codepen.io/michaelcharles8/pen/VwmmwRX">See More</a>
+                </div>
+            </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0">My first attempt of creating a character using only CSS and HTML on codepen.io . Project for Eleven Fifty, after learning the basiscs of HTML/CSS. </p>
+
+        </div>
+        <!-- Third column -->
+    </div>
+    <div class="d-inline-flex p-5">
+
+
+        <!-- First column -->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/Icon-Colour-Food-Safe.jpg" class="img-responsive" alt="Sample image" width="400" height="400">
+                <div class="mask flex-center blue-gradient-rgba">
+                    <a class="btn btn-outline-white btn-rounded" href="https://github.com/michaelcharlesC/SafeFoods">See More</a>
+                </div>
+            </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0">My first web application created using only C# / MVC / ASP.NET . A recipe app where you can POST/CREATE/FIND different healthy recipes. Project for RED BADGE at Eleven Fifty </p>
+
+        </div>
+        <!-- First column -->
+
+        <!-- Second column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/job-finder-logojpg.jpg" class="img-responsive" alt="Sample image" width="400" height="400">
+                <div class=" mask flex-center blue-gradient-rgba">
+                    <a class="btn btn-outline-white btn-rounded" href="https://github.com/michaelcharlesC/JobFinder">See More</a>
+                </div>
+            </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0">Group Project at Eleven Fifty Academy. We created an API type app using ASP.NET . Job Finder is an app where people and employers can find and post jobs.</p>
+
+        </div>
+        <!-- Second column -->
+
+        <!-- Third column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1">
+                <img src="assets/LinkedIn_logo_initials.png" class="img-responsive" alt="Sample image" width="400" height="400">
+                <div class="mask flex-center blue-gradient-rgba">
+                    <a class="btn  btn-outline-white btn-rounded">See More</a>
+                </div>
+            </div>
+            <p class="text-uppercase text-center text-muted mt-4 mb-0">Find more about my experience and work by checking my Linkedin.</p>
+
+        </div>
+        <!-- Third column -->
     </div>
     </div>
     <div class="aboutTitle">
@@ -203,7 +266,7 @@
 
     </div>
     <!---Contact Me-->
-    <section class="contact">
+    <section id="contactScroll"class="contact">
         <div class="contactHeader">
             <h1>Contact</h1>
         </div>
@@ -212,7 +275,7 @@
                 <form action="https://formspree.io/f/xzbybbvz" method="POST">
                     <input name="name" type="text" placeholder="*Name" required>
                     <input name="subject" type="text" placeholder="*Subject" required>
-                
+
             </div>
             <div class="contactInputText">
                 <input name="email" type="email" placeholder="*Email" required>
@@ -222,8 +285,8 @@
                 <button name="submit" type="submit">Send</button>
             </div>
         </div>
-    </form>
-        
+        </form>
+
 
 
 
