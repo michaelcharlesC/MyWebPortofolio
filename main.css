@@ -3,31 +3,31 @@ body {
     
     font-family: DejaVu Sans Mono, monospace;
     background: hsl(240, 100%, 2%) url(/assets/vectorWall.jpg) ;
-    padding: 0 ;
-    margin: 0 ;
+    padding: 0% ;
+    margin: 0% ;
 }
 
 h1 {
     color:aliceblue;
     font-size: 150.5%;
-    font-family: 2.0em;
+    font-family: 14%;
     padding: 0px;
     margin: 0.5em 0 0.32em 0;
 }
 
 h2 {
     color:aliceblue;
-    font-family: 2.0em;
-    padding: 0px;
-    margin: 0.5em 0 0.32em 0;
+    font-family: 14%m;
+    padding: 0%;
+    margin: 6% 0% 3% 0;
 }
 
 p {
-    font-size: 0.7em;
+    font-size: 80%;
     line-height: 1.4em;
     color:rgb(124, 121, 121);
     font-family: DejaVu Sans Mono, monospace;
-    margin: 0.8em 1em 0.5em 1em;
+    margin: 12% 14% 8% 14%;
 
 }
 .aboutTitle h1{
@@ -49,8 +49,8 @@ a:hover {
 .wrapper {
     margin: 0 auto;
     font-size: 100%;
-    max-width: 1170px;
-    padding: 0 3.0em;
+    max-width: 100%;
+    padding: 0% 12%;
 }
 /*to review later*/
 .left{
@@ -94,8 +94,8 @@ nav {
     color :coral;
     font-size: 1.7em;
     background: #000000;
-    border-radius: 10em 10em 10em 10em;
-    margin-right: 10em;
+    border-radius: 12% 12% 12% 12%;
+    margin-right: 12%;
 
     
 }
@@ -134,6 +134,7 @@ button{
     
     
     
+    
 }
 
 .profilePic{
@@ -144,15 +145,20 @@ button{
 
 .aboutTitle, .contactTitle  {
     background: #ff9900;
-    padding: 1em 1em 1em 5em ;
+    padding: 1% 1% 1% 10%;
     margin: 0 0 0 0 ;
     box-shadow: 0px 0px 5px 0px #ff9900;
     border-style: solid;
 }
 
 .aboutMeWrapper h3{
-    margin: 0.8em 1em 0.5em 1em;
+    margin: 2%;
+    font-size: 200%;
     color: rgb(124, 121, 121);
+}
+
+.aboutMeWrapper p{
+    margin: 2%;
 }
 
 .aboutText{
@@ -198,7 +204,7 @@ button{
 
 .rowX{
     display: flex;
-    max-width: 1500px;
+    max-width: 100%;
     margin-right: 3%;
     margin-left: 3%;
     
@@ -248,7 +254,9 @@ margin:auto;
   margin:5%
  
 }
-
+#fixInline{
+    margin-left: 3,5%;
+}
 .portofolioPanel{
     margin-right:5%;
     margin-left: 5%;
